@@ -1,0 +1,6 @@
+1. copy project structure folder and paste it to the current folder
+2. change the folder that you have pasted here to your student number
+3. complete functions and commit changes
+4. after you completed all functions make a pull request to main repository
+
+good luck xD

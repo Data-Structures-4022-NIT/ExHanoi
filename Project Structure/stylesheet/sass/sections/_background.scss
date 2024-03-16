@@ -1,0 +1,22 @@
+.background-text{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    z-index: 1;
+
+    h1{
+        color: $_secondary-background-color;
+        font-size: 200px;
+        opacity: 0.7;
+        animation: textBlinking infinite;
+        animation-duration: 5s;
+        font-family: $_background-text-font-family;
+        user-select: none;
+    }
+
+}
+@keyframes textBlinking {
+    0%{opacity: 0.4;}
+    50%{opacity: 1;}
+    100%{opacity: 0.4;}
+}
