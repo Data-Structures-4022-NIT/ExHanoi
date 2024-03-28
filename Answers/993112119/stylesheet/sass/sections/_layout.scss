@@ -1,0 +1,17 @@
+*{
+    background-color: $_primary-background-color;
+    font-family: $_primary-font-family;
+    position: relative;
+}
+.container{
+    max-width: 1200px;
+    height: 100vh;
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.noDisplay{
+    display: none;
+}
