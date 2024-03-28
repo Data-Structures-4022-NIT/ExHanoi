@@ -1,0 +1,24 @@
+.disk{
+    height: 18px;
+    background-color: $_secondary-background-color;
+    z-index: 4;
+    border-radius: 10px;
+    border: 1px solid $_primary-background-color;
+    box-shadow: 0 0 10px $_main-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: disksBlinking infinite;
+    animation-duration: 5s;
+    &B{
+        background-color: $_secondary-background-color__low-Opacity;
+        border: 1.5px solid $_secondary-background-color;
+        color: $_secondary-background-color;
+    }
+}
+
+@keyframes disksBlinking {
+    0%{box-shadow: 0 0 1px $_main-color};
+    50%{box-shadow: 0 0 15px $_main-color};
+    100%{box-shadow: 0 0 1px $_main-color};
+}
